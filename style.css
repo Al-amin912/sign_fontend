@@ -1,0 +1,36 @@
+body {
+  background: #111;
+  color: white;
+  text-align: center;
+  font-family: Arial;
+}
+
+#wrapper {
+  position: relative;
+  width: 640px;
+  height: 480px;
+  margin: auto;
+}
+
+video, canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scaleX(-1);
+}
+
+canvas {
+  z-index: 2;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+h3 {
+  margin-top: 10px;
+  color: #00ffcc;
+}
